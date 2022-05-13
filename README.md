@@ -15,11 +15,13 @@ You'll need to have the following packages installed (I used brew in OSX):
 
 ### Step 1
 
-To record an input for this tool, rest at a site of grace and go to the "Sort Chest" item option.  
+To record an input for this tool, rest at a site of grace and go to the "Sort Chest" item option:
+
+![](img/main-menu.jpg)
+
+Start recording, and page through your inventory (on both the local inventory and chest sides):
 
 ![](img/sort-chest.jpg)
-
-Start recording, and page through your inventory (on both the local inventory and chest sides).
 
 Stop your recording when you've scrolled through everything you want, and share the video to YouTube.
 
