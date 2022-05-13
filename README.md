@@ -11,6 +11,10 @@ You'll need to have the following packages installed (I used homebrew under OSX)
 * tesseract  
 * yt-dlp
 
+You'll also need to have ruby (I used v3.0.4, see the `.ruby-version`) and the
+`rtesseract` gem installed (I've included a Gemfile if you want to use bundler
+to install it).
+
 ## Usage
 
 ### Step 1
