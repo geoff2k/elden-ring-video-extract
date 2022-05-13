@@ -4,7 +4,7 @@ This is a terrible procedural script that works for me.  YMMV.
 
 ## Requirements
 
-You'll need to have the following packages installed (I used brew in OSX):
+You'll need to have the following packages installed (I used homebrew under OSX):
 * ffmpeg
     * for both ffmpeg and ffprobe
 * imagemagick
@@ -51,3 +51,12 @@ This will take a while.  The script is:
 
 Once the script is done, it will output a list of all the item names it found to STDOUT.
 
+### Tuning
+
+By default, the script will only process every 20th frame for performance reasons, if some 
+strings that you expect to appear are not showing up you can tune this in the script by
+lowering the following variable:
+
+```
+FRAME_COUNT = 20
+```

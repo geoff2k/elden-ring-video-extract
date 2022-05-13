@@ -4,6 +4,8 @@ VERBOSE = false
 
 VIDEO_URL = "https://www.youtube.com/watch?v=31gqB5eUC94"
 
+FRAME_COUNT = 20
+
 REGEX = /Merging formats into \"(.*?)\"/
 
 def download(url, prefix)
@@ -62,7 +64,7 @@ extract_frames(output_file)
 output = {}
 
 (1..frame_count(output_file)).each do |index|
-  if index % 20 == 0  # only process every 20th frame
+  if index % FRAME_COUNT == 0  # only process every FRAME_COUNT'th frame
     items = ocr("%08d.png" % index) 
     items.each do |item|
       output[item] = 1
